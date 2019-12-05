@@ -23,7 +23,7 @@ header {position: relative;
 #titulo {position: absolute;
         font-family: 'Anton', sans-serif;
         top:0;
-        width: 500px;
+        width: 100%;
         font-size: 2em;
         text-align: center;
         /*OJO, RARO: para que el navegador calcule bien
@@ -40,37 +40,13 @@ header {position: relative;
         text-align: center;
         }
 
-ul li {
-       margin-bottom: 15px;
-       display: inline-block;
-        }
-a {
-    text-decoration: none;
-    }
-a.indice {
-         border:2px inset silver;
-         padding: 5px;
-         background-color: silver;
-         color:black;
-         border-radius: 10px;
-        }
-a.indice:hover {
-        border: 2px outset silver;
-        background-color: rgb(158,158,158);
-        border-radius: 10px;
-        }
-ul {list-style-type: none;
-    /*display:grid;*/}
-
 div.polaroid {
         width: 40%;
-        background-color: white;
+        background-color: gray;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 25px;
+        margin-bottom: 10%;
         display: inline-block;
-        padding: 5px;
-    }      
+        padding: 5px;}      
 div.container {
             text-align: center;
-            padding: 10px 20px;
-            }
+            padding: 10px 20px;}
