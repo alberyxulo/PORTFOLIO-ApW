@@ -1,0 +1,76 @@
+/*Este es el estilo de portfolio de Alberto*/
+
+#wrapper {width: 99%;
+        height: 800px;
+        /*background-color: blanchedalmond;*/
+        margin:1%;
+        }
+header {position: relative;
+    /* relative para que el titulo que va dentro,
+    lo puedas colocar con absolute, donde quiera*/
+    background-image: url("imagenes-portfolio/portfolio.jpg");
+    background-size: cover;
+    /*cover adapta bien la imagen responsive
+    pero la corta...*/
+    background-position: center;
+    /*como mi imagen tiene lo importante en el centro,
+    debo poner background-position: center para que corte 
+    de los lados*/
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 99%;
+}
+#titulo {position: absolute;
+        font-family: 'Anton', sans-serif;
+        top:0;
+        width: 500px;
+        font-size: 2em;
+        text-align: center;
+        /*OJO, RARO: para que el navegador calcule bien
+        el centro donde poner el título, hay que
+        indicarle estas cuatro cosas:*/
+        left:0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+#cuerpo {width: 99%;
+        height: 800px;
+        /*background-color: white;*/
+        text-align: center;
+        }
+
+ul li {
+       margin-bottom: 15px;
+       display: inline-block;
+        }
+a {
+    text-decoration: none;
+    }
+a.indice {
+         border:2px inset silver;
+         padding: 5px;
+         background-color: silver;
+         color:black;
+         border-radius: 10px;
+        }
+a.indice:hover {
+        border: 2px outset silver;
+        background-color: rgb(158,158,158);
+        border-radius: 10px;
+        }
+ul {list-style-type: none;
+    /*display:grid;*/}
+
+div.polaroid {
+        width: 40%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        display: inline-block;
+        padding: 5px;
+    }      
+div.container {
+            text-align: center;
+            padding: 10px 20px;
+            }
